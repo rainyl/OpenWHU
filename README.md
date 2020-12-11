@@ -1,6 +1,7 @@
 # WHU课代表计划 - 武汉大学课程资料整理
-<img src="https://github.com/openwhu/OpenWHU/blob/master/OpenWHU.png">
+<img src="https://raw.githubusercontent.com/openwhu/OpenWHU/master/OpenWHU.png">
 
+[![Gitter](https://badges.gitter.im/openwhu/community.svg)](https://gitter.im/openwhu/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 ## 使用|Usage
 
 使用方法：访问 https://openwhu.github.io/ ，点击资料链接即可下载。
@@ -32,21 +33,6 @@
 
 **Together We Can Make WHU A Better Place**
 
-
-## 现状与愿景|Status Quo & Goals
-
-### 现状：
-
-1.校内现存渠道（官方组织、盈利公众号、供需群买卖）资料质量参差不齐、普及率不高、覆盖范围窄、更新频率低。
-
-2.大部分课程考核受信息不对称影响大。
-
-3.截止2019/06/29：
-
-WHU课代表计划 Star数：60，Fork数：15 Contribution：6
-
-参与院系：3（资源与环境科学学院、计算机学院、电子信息学院）
-
 ### 愿景：
 
 1.一定程度上消除信息不对称所带来的不公平现象。
@@ -62,47 +48,69 @@ WHU课代表计划 Star数：60，Fork数：15 Contribution：6
 
 ## 贡献|Contribution
 
+**欢迎贡献！**
+
+**欢迎贡献！**
+
+**欢迎贡献！**
+
+**欢迎贡献！**
+
+**欢迎贡献！**
+
+*——* *因为是武大所以说五遍*
+
 ### 规则
 
 1.**所有资料必须为任课教师向学生公开内容**
 
-2.建议上传的类别：笔记、历年试卷、攻略与评价、**公开**课件、作业**范例**
+2.建议上传的类别：笔记、历年试卷、攻略与评价、**公开**课件、作业或实验**范例**、复习资料
 
-**3.建议命名格式:**
+3.**建议文件名命名格式:**
 
-**“课程名”\_“年份”\_“课程名”\_“授课老师姓名拼音首字母”（可选）\_“贡献者分数”（可选）\_“贡献者”（可选）**
+~~**“年份”\_“课程名”\_“授课老师姓名拼音首字母”（可选）\_“贡献者分数”（可选）\_“贡献者”（可选）**~~
 
-如： “2019\_高等数学\_XYZ\_95\_ABC”
+~~如： “2019\_高等数学\_XYZ\_95\_ABC”~~
+
+**以课程名命名即可**
 
 4.建议文件格式及组织：
 
-攻略评价：可写在对应课程文件夹的 `README.md`中 
+攻略评价：可写在对应课程文件夹的 `README.md`中
 
 其他文件：PDF格式
 
-文件目录建立示例：
+上课时间及教师：可写在`README.md`中
 
+5.文件目录建立示例：
+    
 公共必修课/高等数学B1（请注意课程等级：A、B、C、D...）
 
 专业课/计算机学院/数学结构（考虑到同院不同细分专业可能同上一门课，不建议再细分）
 
 ```
 课程
-├ 代码
-│   ├ mbinary0
-│   ├ mbinary1
-│   └ mbinary2
-├ 实验
+├ 实验作业
+│ ├ 实验要求
+│ └ 代码
+│     ├ mbinary0
+│     ├ mbinary1
+│     └ mbinary2
+├ 参考书籍
 ├ 考试/测试
 ├ 笔记
-├ 评价/建议
+├ 课件
+├ 其他
 └ README.md
 ```
 
-5.单次pull request避免上传多门课资料，否则因github只能review前3000文件，不便检查
+6.其他注意事项:
+
+单次pull request避免上传多门课资料，否则因Github只能review前3000文件，不便检查
+
+**请尽量不上传二进制文件（如果有必要请以压缩包形式上传）**
 
 ### 上传方法
-
 
 #### 1.通过Pull Request：
 
@@ -129,13 +137,17 @@ WHU课代表计划 Star数：60，Fork数：15 Contribution：6
 
 #### 3.通过邮件：
 
-或者也可以发送邮件至 **OpenWHU@foxmail.com** ，由维护者进行添加，邮件每周六处理一次。
+或者也可以发送邮件至 **OpenWHU@outlook.com** ，由维护者进行添加。
+
+#### 4.通过QQ：
+
+可联系现任负责人QQ：1223841435, 957880707
 
 ## 声明|Disclaimer
 
 我们不对项目中信息的准确性或真实性做任何承诺。
 
-**如果有侵权情况，麻烦您发送必要的信息至 OpenWHU@foxmail.com ，带来不便还请您谅解。**
+**如果有侵权情况，麻烦您发送必要的信息至 OpenWHU@outlook.com ，带来不便还请您谅解。**
 
 ## 许可|License
 
@@ -149,7 +161,7 @@ WHU课代表计划 Star数：60，Fork数：15 Contribution：6
 
 <details>
   <summary>查看详情|View Details</summary>
-   
+
 - [浙江大学课程攻略共享计划](https://github.com/QSCTech/zju-icicles)
 - [气垫船计划——免费、去中心化的北京大学往年题资料库](https://github.com/martinwu42/project-hover)
 - [北京大学信科学生会学术部资料库](https://github.com/EECS-PKU-XSB/Shared-learning-materials)
@@ -165,13 +177,4 @@ WHU课代表计划 Star数：60，Fork数：15 Contribution：6
 </details>
 
 ## 感谢所有参与本计划的同学，欢迎武大在校生加入团队一起维护
-
-<details>
-  <summary>查看详情|View Details</summary>
- 
-- yeung66 
-- fq40
-- xkw168
-
-</details>
 
